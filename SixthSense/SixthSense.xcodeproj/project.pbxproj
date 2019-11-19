@@ -12,6 +12,7 @@
 		91F746972375D6230086A853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F746952375D6230086A853 /* Main.storyboard */; };
 		91F746992375D6250086A853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F746982375D6250086A853 /* Assets.xcassets */; };
 		91F7469C2375D6250086A853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F7469A2375D6250086A853 /* LaunchScreen.storyboard */; };
+		91F746A42375D73B0086A853 /* LayoutSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F746A32375D73B0086A853 /* LayoutSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		91F746982375D6250086A853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91F7469B2375D6250086A853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91F7469D2375D6250086A853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F746A32375D73B0086A853 /* LayoutSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LayoutSettings.swift; path = UI/LayoutSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				91F746912375D6230086A853 /* AppDelegate.swift */,
 				91F746932375D6230086A853 /* ViewController.swift */,
 				91F746952375D6230086A853 /* Main.storyboard */,
+				91F746A32375D73B0086A853 /* LayoutSettings.swift */,
 				91F746982375D6250086A853 /* Assets.xcassets */,
 				91F7469A2375D6250086A853 /* LaunchScreen.storyboard */,
 				91F7469D2375D6250086A853 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F746A42375D73B0086A853 /* LayoutSettings.swift in Sources */,
 				91F746942375D6230086A853 /* ViewController.swift in Sources */,
 				91F746922375D6230086A853 /* AppDelegate.swift in Sources */,
 			);
